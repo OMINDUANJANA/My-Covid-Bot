@@ -1,0 +1,26 @@
+{
+  "name": "‍My Covid 19 Update Bot",
+  "description": "A bot to get currently Covid-19 local stats",
+  "repository": "https://github.com/DarkKingbot/My-Covid-Bot.git",
+  "logo": "https://avatars.githubusercontent.com/u/93399269?v=4",
+  "keywords": ["telegram", "Covid-19", "Sri-Lanka","telegram bot"],
+  "env": {
+     "BOTT": {
+      "description": "Your Bot token දාපන් from @Botfather",
+      "value": ""
+    },
+    "API_ID": {
+      "description": "Your API_ID දාපන් from https://my.telegram.org/apps ",
+      "value": ""
+    },
+    "API_HASH": {
+      "description": "Your API_HASH දාපන් from https://my.telegram.org/apps",
+      "value": ""
+    }
+   },
+   "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ]
+}
